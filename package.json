@@ -1,0 +1,11 @@
+{
+  "name": "allied-proxy",
+  "version": "1.0.0",
+  "description": "Netlify proxy for Google Apps Script",
+  "scripts": {
+    "build": "echo 'No build needed'"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.12"
+  }
+}
