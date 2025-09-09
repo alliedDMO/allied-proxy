@@ -1,0 +1,9 @@
+{
+  "name": "netlify-functions",
+  "version": "1.0.0",
+  "description": "Proxy function for Google Apps Script",
+  "main": "api.js",
+  "dependencies": {
+    "node-fetch": "^2.6.12"
+  }
+}
