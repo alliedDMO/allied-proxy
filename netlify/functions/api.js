@@ -2,7 +2,7 @@
 const fetch = require('node-fetch');
 
 exports.handler = async (event, context) => {
-  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/YOUR_WORKING_EXEC_URL/exec';
+  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz3KSQcYcUyPQg4ima1CJ7OZpNPLi9FOnd5AroX-D_KfJtSf5IvwlgRl-kRQT6-a5dF/exec';
 
   try {
     const method = event.httpMethod || 'POST';
@@ -63,3 +63,4 @@ exports.handler = async (event, context) => {
     };
   }
 };
+
